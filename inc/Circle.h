@@ -1,9 +1,8 @@
 #pragma once
 #ifndef CIRCLE_HPP
 #define CIRCLE_HPP
-
 #include "Shape.h"
-
+//потомок
 class Circle : public Shape
 {
 public:

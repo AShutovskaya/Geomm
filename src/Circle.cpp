@@ -1,9 +1,7 @@
-//#include<cmath>
 #include <cassert>
 #include <iostream>
 #include"math.h"
 #include "Circle.h"
-
 Circle::Circle(const point_t & pos, double radius) :
 	pos_(pos),
 	radius_(radius)

@@ -1,4 +1,3 @@
-//создание базового класса для наследования
 #pragma once
 #ifndef BASE_TYPES_HPP
 #define BASE_TYPES_HPP
@@ -7,6 +6,12 @@ struct point_t
 {
 	double x;
 	double y;
+};
+struct circle_t 
+{
+	double radius;
+
+
 };
 
 struct rectangle_t
@@ -22,8 +27,6 @@ struct triangle_t
 	double b;
 	double c;
 	double radiusO;
-
-
 };
 
 #endif

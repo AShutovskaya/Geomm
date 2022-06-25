@@ -3,7 +3,7 @@
 #define RECTANGLE_HPP
 
 #include "Shape.h"
-
+//потомок
 class Rectangle : public Shape
 {
 public:

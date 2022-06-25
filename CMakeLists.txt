@@ -16,5 +16,5 @@ add_definitions(-DSFML_STATIC)		 # дефайны
 	
 
 add_executable("${PROJECT_NAME}" main.cpp inc/Circle.h src/Circle.cpp inc/base-types.h inc/Shape.h src/Rectangle.cpp
-inc/Rectangle.h inc/Triangle.h src/Triangle.cpp )
+inc/Rectangle.h  )
 											
